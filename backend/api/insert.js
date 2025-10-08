@@ -1,5 +1,6 @@
-import fs from 'fs';
-import axios from 'axios';
+import 'dotenv/config'; //
+import fs from 'fs'; // 
+import axios from 'axios'; //
 
 const HUGGINGFACE_KEY = process.env.HUGGINGFACE_API_KEY || '';
 const QDRANT_URL = process.env.QDRANT_URL || '';

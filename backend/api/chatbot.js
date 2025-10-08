@@ -6,6 +6,9 @@ export default async function handler(req, res) {
     if (!userPrompt) return res.status(400).json({ error: 'userPrompt required' });
 
     const GEMINI_KEY = process.env.GEMINI_API_KEY || '';
+    const HUGGINGFACE_API_KEY = process.env.HUGGINGFACE_API_KEY || '';
+    const QDRANT_URL = process.env.QDRANT_URL || '';
+    const QDRANT_API_KEY = process.env.QDRANT_API_KEY || '';
 
     if (!GEMINI_KEY) {
       return res.status(200).json({ reply: 'Demo: Set GEMINI_API_KEY to enable real chatbot. Try "Suggest me breakfast with high protein".' });
