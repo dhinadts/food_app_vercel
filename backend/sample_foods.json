@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Chili Ramen",
+    "description": "Spicy noodle bowl with chili oil, pork, and scallions.",
+    "tags": [
+      "spicy",
+      "noodles"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Mild Chicken Pho",
+    "description": "Comforting noodle soup with chicken, herbs and mild spices.",
+    "tags": [
+      "soup",
+      "noodles"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Vegan Buddha Bowl",
+    "description": "Quinoa, roasted vegetables, chickpeas and tahini dressing.",
+    "tags": [
+      "vegan",
+      "healthy"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Paneer Tikka",
+    "description": "Grilled paneer with smoky spices and peppers.",
+    "tags": [
+      "vegetarian",
+      "spicy"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Grilled Salmon Salad",
+    "description": "Salmon with mixed greens, avocado, and lemon dressing.",
+    "tags": [
+      "healthy",
+      "protein"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Masala Dosa",
+    "description": "Crispy rice crepe with spiced potato filling.",
+    "tags": [
+      "south indian",
+      "savory"
+    ]
+  }
+]
